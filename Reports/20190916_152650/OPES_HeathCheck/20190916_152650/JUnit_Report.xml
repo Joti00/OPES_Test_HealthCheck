@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="OPES_HeathCheck" time="5" tests="5" failures="0" errors="0">
+    <testsuite name="OPES_HeathCheck" tests="5" failures="0" errors="0" time="5" timestamp="2019-09-16 15:26:57" hostname="biswasj - OCI1768" id="Test Suites/OPES_HeathCheck">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\biswasj\\git\\OPES_Test_Health_Check\\Reports\\20190916_152650\\OPES_HeathCheck\\20190916_152650"/>
+            <property name="logFiles" value="C:\\Users\\biswasj\\git\\OPES_Test_Health_Check\\Reports\\20190916_152650\\OPES_HeathCheck\\20190916_152650\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="biswasj - OCI1768"/>
+            <property name="hostAddress" value="10.0.75.1"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+        </properties>
+        <testcase name="Test Cases/AccessNode/AcceeNode_Tally_push_Valid" classname="Test Cases/AccessNode/AcceeNode_Tally_push_Valid" status="PASSED">
+            <system-out>2019-09-16 15:26:57 - [TEST_CASE][PASSED] - Test Cases/AccessNode/AcceeNode_Tally_push_Valid: Test Cases/AccessNode/AcceeNode_Tally_push_Valid&#xD;
+&#xD;
+2019-09-16 15:26:57 - [TEST_STEP][PASSED] - sendRequest(findTestObject("AccessNode_tally_param_Valid")): Send request successfully&#xD;
+&#xD;
+2019-09-16 15:26:59 - [MESSAGE][INFO] - HAR: C:\Users\biswasj\git\OPES_Test_Health_Check\Reports\20190916_152650\OPES_HeathCheck\20190916_152650\requests\main\0.har&#xD;
+&#xD;
+2019-09-16 15:26:59 - [MESSAGE][PASSED] - Send request successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/AccessNode/AccessNode_tally_param_Invalid" classname="Test Cases/AccessNode/AccessNode_tally_param_Invalid" status="PASSED">
+            <system-out>2019-09-16 15:26:59 - [TEST_CASE][PASSED] - Test Cases/AccessNode/AccessNode_tally_param_Invalid: Test Cases/AccessNode/AccessNode_tally_param_Invalid&#xD;
+&#xD;
+2019-09-16 15:26:59 - [TEST_STEP][PASSED] - sendRequest(findTestObject("AccessNode_tally_param_Invalid")): Send request successfully&#xD;
+&#xD;
+2019-09-16 15:27:00 - [MESSAGE][INFO] - HAR: C:\Users\biswasj\git\OPES_Test_Health_Check\Reports\20190916_152650\OPES_HeathCheck\20190916_152650\requests\main\1.har&#xD;
+&#xD;
+2019-09-16 15:27:00 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-09-16 15:27:00 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("AccessNode_tally_param_Invalid")): Send request and verify the response successfully&#xD;
+&#xD;
+2019-09-16 15:27:00 - [MESSAGE][INFO] - HAR: C:\Users\biswasj\git\OPES_Test_Health_Check\Reports\20190916_152650\OPES_HeathCheck\20190916_152650\requests\main\2.har&#xD;
+&#xD;
+2019-09-16 15:27:00 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully&#xD;
+&#xD;
+2019-09-16 15:27:00 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null&#xD;
+&#xD;
+2019-09-16 15:27:00 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null&#xD;
+&#xD;
+2019-09-16 15:27:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 401): Verify response status code successfully&#xD;
+&#xD;
+2019-09-16 15:27:00 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-09-16 15:27:00 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(401): null&#xD;
+&#xD;
+2019-09-16 15:27:00 - [MESSAGE][PASSED] - Verify response successfully&#xD;
+&#xD;
+2019-09-16 15:27:00 - [MESSAGE][PASSED] - Send request and verify the response successfully&#xD;
+&#xD;
+2019-09-16 15:27:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 401): Verify response status code successfully&#xD;
+&#xD;
+2019-09-16 15:27:00 - [MESSAGE][PASSED] - Verify response status code successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/AccessNode/AccessNode_tally_param_without_header" classname="Test Cases/AccessNode/AccessNode_tally_param_without_header" status="PASSED">
+            <system-out>2019-09-16 15:27:00 - [TEST_CASE][PASSED] - Test Cases/AccessNode/AccessNode_tally_param_without_header: Test Cases/AccessNode/AccessNode_tally_param_without_header&#xD;
+&#xD;
+2019-09-16 15:27:00 - [TEST_STEP][PASSED] - sendRequest(findTestObject("AccessNode_tally_param_without_header")): Send request successfully&#xD;
+&#xD;
+2019-09-16 15:27:01 - [MESSAGE][INFO] - HAR: C:\Users\biswasj\git\OPES_Test_Health_Check\Reports\20190916_152650\OPES_HeathCheck\20190916_152650\requests\main\3.har&#xD;
+&#xD;
+2019-09-16 15:27:01 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-09-16 15:27:01 - [TEST_STEP][PASSED] - withoutheader = sendRequestAndVerify(findTestObject("AccessNode_tally_param_without_header")): Send request and verify the response successfully&#xD;
+&#xD;
+2019-09-16 15:27:01 - [MESSAGE][INFO] - HAR: C:\Users\biswasj\git\OPES_Test_Health_Check\Reports\20190916_152650\OPES_HeathCheck\20190916_152650\requests\main\4.har&#xD;
+&#xD;
+2019-09-16 15:27:01 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully&#xD;
+&#xD;
+2019-09-16 15:27:01 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null&#xD;
+&#xD;
+2019-09-16 15:27:01 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null&#xD;
+&#xD;
+2019-09-16 15:27:01 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "message", "Required Header [X-API-Version] not specified"): Verify element property value successfully&#xD;
+&#xD;
+2019-09-16 15:27:01 - [MESSAGE][PASSED] - Verify element property value successfully&#xD;
+&#xD;
+2019-09-16 15:27:01 - [MESSAGE][PASSED] - Verify response successfully&#xD;
+&#xD;
+2019-09-16 15:27:01 - [MESSAGE][PASSED] - Send request and verify the response successfully&#xD;
+&#xD;
+2019-09-16 15:27:01 - [TEST_STEP][PASSED] - verifyElementPropertyValue(withoutheader, "message", "Required Header [X-API-Version] not specified"): Verify element property value successfully&#xD;
+&#xD;
+2019-09-16 15:27:01 - [MESSAGE][PASSED] - Verify element property value successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/API_Gateway_Service/API_Gateway_Service_Community" classname="Test Cases/API_Gateway_Service/API_Gateway_Service_Community" status="PASSED">
+            <system-out>2019-09-16 15:27:01 - [TEST_CASE][PASSED] - Test Cases/API_Gateway_Service/API_Gateway_Service_Community: Test Cases/API_Gateway_Service/API_Gateway_Service_Community&#xD;
+&#xD;
+2019-09-16 15:27:01 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API Gateway Services/API_Gateway_Service_Community")): Send request successfully&#xD;
+&#xD;
+2019-09-16 15:27:01 - [MESSAGE][INFO] - HAR: C:\Users\biswasj\git\OPES_Test_Health_Check\Reports\20190916_152650\OPES_HeathCheck\20190916_152650\requests\main\5.har&#xD;
+&#xD;
+2019-09-16 15:27:01 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-09-16 15:27:01 - [TEST_STEP][PASSED] - apigateway = sendRequestAndVerify(findTestObject("API Gateway Services/API_Gateway_Service_Community")): Send request and verify the response successfully&#xD;
+&#xD;
+2019-09-16 15:27:01 - [MESSAGE][INFO] - HAR: C:\Users\biswasj\git\OPES_Test_Health_Check\Reports\20190916_152650\OPES_HeathCheck\20190916_152650\requests\main\6.har&#xD;
+&#xD;
+2019-09-16 15:27:02 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully&#xD;
+&#xD;
+2019-09-16 15:27:02 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null&#xD;
+&#xD;
+2019-09-16 15:27:02 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null&#xD;
+&#xD;
+2019-09-16 15:27:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully&#xD;
+&#xD;
+2019-09-16 15:27:02 - [MESSAGE][PASSED] - Verify response status code successfully&#xD;
+&#xD;
+2019-09-16 15:27:02 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null&#xD;
+&#xD;
+2019-09-16 15:27:02 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "communities[1].title", "The cntstr111112 CN"): Verify element property value successfully&#xD;
+&#xD;
+2019-09-16 15:27:02 - [MESSAGE][PASSED] - Verify element property value successfully&#xD;
+&#xD;
+2019-09-16 15:27:02 - [MESSAGE][PASSED] - Verify response successfully&#xD;
+&#xD;
+2019-09-16 15:27:02 - [MESSAGE][PASSED] - Send request and verify the response successfully&#xD;
+&#xD;
+2019-09-16 15:27:02 - [TEST_STEP][PASSED] - verifyElementPropertyValue(apigateway, "communities[1].title", "The cntstr111112 CN"): Verify element property value successfully&#xD;
+&#xD;
+2019-09-16 15:27:02 - [MESSAGE][PASSED] - Verify element property value successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/API_Gateway_Service/API_Gateway_Service_Community_with_id" classname="Test Cases/API_Gateway_Service/API_Gateway_Service_Community_with_id" status="PASSED">
+            <system-out>2019-09-16 15:27:02 - [TEST_CASE][PASSED] - Test Cases/API_Gateway_Service/API_Gateway_Service_Community_with_id: Test Cases/API_Gateway_Service/API_Gateway_Service_Community_with_id&#xD;
+&#xD;
+2019-09-16 15:27:02 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API Gateway Services/API_Gateway_Service_Community_with_id")): Send request successfully&#xD;
+&#xD;
+2019-09-16 15:27:02 - [MESSAGE][INFO] - HAR: C:\Users\biswasj\git\OPES_Test_Health_Check\Reports\20190916_152650\OPES_HeathCheck\20190916_152650\requests\main\7.har&#xD;
+&#xD;
+2019-09-16 15:27:02 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-09-16 15:27:02 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("API Gateway Services/API_Gateway_Service_Community_with_id")): Send request and verify the response successfully&#xD;
+&#xD;
+2019-09-16 15:27:02 - [MESSAGE][INFO] - HAR: C:\Users\biswasj\git\OPES_Test_Health_Check\Reports\20190916_152650\OPES_HeathCheck\20190916_152650\requests\main\8.har&#xD;
+&#xD;
+2019-09-16 15:27:02 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully&#xD;
+&#xD;
+2019-09-16 15:27:02 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null&#xD;
+&#xD;
+2019-09-16 15:27:02 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null&#xD;
+&#xD;
+2019-09-16 15:27:02 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "meta.first", "blkgw.qa.objectcomputing-opes-one.com/bl/communities?page=0&amp;key=.ctstr111111"): Verify element property value successfully&#xD;
+&#xD;
+2019-09-16 15:27:02 - [MESSAGE][PASSED] - Verify element property value successfully&#xD;
+&#xD;
+2019-09-16 15:27:02 - [MESSAGE][PASSED] - Verify response successfully&#xD;
+&#xD;
+2019-09-16 15:27:02 - [MESSAGE][PASSED] - Send request and verify the response successfully&#xD;
+&#xD;
+2019-09-16 15:27:02 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "meta.first", "blkgw.qa.objectcomputing-opes-one.com/bl/communities?page=0&amp;key=.ctstr111111"): Verify element property value successfully&#xD;
+&#xD;
+2019-09-16 15:27:02 - [MESSAGE][PASSED] - Verify element property value successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-09-16 15:26:57 - [TEST_SUITE][INCOMPLETE] - OPES_HeathCheck: null</system-out>
+        <system-err>2019-09-16 15:26:57 - [TEST_SUITE][INCOMPLETE] - OPES_HeathCheck: null</system-err>
+    </testsuite>
+</testsuites>

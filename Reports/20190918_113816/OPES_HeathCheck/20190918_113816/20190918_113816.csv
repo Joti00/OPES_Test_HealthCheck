@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OPES_HeathCheck,,,,2019-09-18 11:38:23,2019-09-18 11:38:31,8.138s,INCOMPLETE
+,,,,,,,
+Test Cases/AccessNode/AcceeNode_Tally_push_Valid,,,,2019-09-18 11:38:23,2019-09-18 11:38:26,2.545s,PASSED
+"sendRequest(findTestObject(""AccessNode_tally_param_Valid""))",,,,2019-09-18 11:38:24,2019-09-18 11:38:26,2.280s,PASSED
+,,,,,,,
+Test Cases/AccessNode/AccessNode_tally_param_Invalid,,,,2019-09-18 11:38:26,2019-09-18 11:38:27,1.168s,PASSED
+"sendRequest(findTestObject(""AccessNode_tally_param_Invalid""))",,,,2019-09-18 11:38:26,2019-09-18 11:38:26,0.290s,PASSED
+"response = sendRequestAndVerify(findTestObject(""AccessNode_tally_param_Invalid""))",,,,2019-09-18 11:38:26,2019-09-18 11:38:27,0.710s,PASSED
+"verifyResponseStatusCode(response, 401)",,,,2019-09-18 11:38:27,2019-09-18 11:38:27,0.006s,PASSED
+,,,,,,,
+Test Cases/AccessNode/AccessNode_tally_param_without_header,,test,,2019-09-18 11:38:27,2019-09-18 11:38:28,0.956s,PASSED
+"sendRequest(findTestObject(""AccessNode_tally_param_without_header""))",,,,2019-09-18 11:38:27,2019-09-18 11:38:28,0.260s,PASSED
+"withoutheader = sendRequestAndVerify(findTestObject(""AccessNode_tally_param_without_header""))",,,,2019-09-18 11:38:28,2019-09-18 11:38:28,0.470s,PASSED
+"verifyElementPropertyValue(withoutheader, ""message"", ""Required Header [X-API-Version] not specified"")",,,,2019-09-18 11:38:28,2019-09-18 11:38:28,0.019s,PASSED
+,,,,,,,
+Test Cases/API_Gateway_Service/API_Gateway_Service_Community,,,,2019-09-18 11:38:28,2019-09-18 11:38:29,1.183s,PASSED
+"sendRequest(findTestObject(""API Gateway Services/API_Gateway_Service_Community""))",,,,2019-09-18 11:38:28,2019-09-18 11:38:29,0.467s,PASSED
+"apigateway = sendRequestAndVerify(findTestObject(""API Gateway Services/API_Gateway_Service_Community""))",,,,2019-09-18 11:38:29,2019-09-18 11:38:29,0.557s,PASSED
+"verifyElementPropertyValue(apigateway, ""communities[1].title"", ""The cntstr111112 CN"")",,,,2019-09-18 11:38:29,2019-09-18 11:38:29,0.015s,PASSED
+,,,,,,,
+Test Cases/API_Gateway_Service/API_Gateway_Service_Community_with_id,,,,2019-09-18 11:38:29,2019-09-18 11:38:30,1.195s,PASSED
+"sendRequest(findTestObject(""API Gateway Services/API_Gateway_Service_Community_with_id""))",,,,2019-09-18 11:38:29,2019-09-18 11:38:30,0.587s,PASSED
+"response = sendRequestAndVerify(findTestObject(""API Gateway Services/API_Gateway_Service_Community_with_id""))",,,,2019-09-18 11:38:30,2019-09-18 11:38:30,0.440s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2019-09-18 11:38:30,2019-09-18 11:38:30,0.002s,PASSED
+"verifyElementPropertyValue(response, ""meta.first"", ""blkgw.qa.objectcomputing-opes-one.com/bl/communities?page=0&key=.ctstr111111"")",,,,2019-09-18 11:38:30,2019-09-18 11:38:30,0.023s,PASSED
+,,,,,,,
+Test Cases/AccessNode/AccessNode_PayLoad,,,,2019-09-18 11:38:30,2019-09-18 11:38:31,0.801s,FAILED
+"sendRequest(findTestObject(""AccessNode_PayLaod""))",,,,2019-09-18 11:38:31,2019-09-18 11:38:31,0.176s,PASSED
+"response = sendRequestAndVerify(findTestObject(""AccessNode_PayLaod""), STOP_ON_FAILURE)",,,,2019-09-18 11:38:31,2019-09-18 11:38:31,0.433s,FAILED
