@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>C%%Users%biswasj%Katalon Studio%OPES_Health_Check%OPES_Health_Check.prj</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.groovy.core.groovyNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>kat-1529801652351109145.groovy</name>
+			<type>1</type>
+			<location>C:/Users/biswasj/AppData/Local/Temp/Katalon/Web Services/kat-1529801652351109145.groovy</location>
+		</link>
+		<link>
+			<name>kat-1664801875692914571.groovy</name>
+			<type>1</type>
+			<location>C:/Users/biswasj/AppData/Local/Temp/Katalon/Web Services/kat-1664801875692914571.groovy</location>
+		</link>
+		<link>
+			<name>kat-47149652637293163.groovy</name>
+			<type>1</type>
+			<location>C:/Users/biswasj/AppData/Local/Temp/Katalon/Web Services/kat-47149652637293163.groovy</location>
+		</link>
+		<link>
+			<name>kat-6941410185728595957.groovy</name>
+			<type>1</type>
+			<location>C:/Users/biswasj/AppData/Local/Temp/Katalon/Web Services/kat-6941410185728595957.groovy</location>
+		</link>
+	</linkedResources>
+	<filteredResources>
+		<filter>
+			<id>1568646470340</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1568646470351</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
+</projectDescription>
