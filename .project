@@ -32,6 +32,7 @@
 			<location>C:/Users/biswasj/AppData/Local/Temp/Katalon/Web Services/kat-1664801875692914571.groovy</location>
 		</link>
 		<link>
+<<<<<<< HEAD
 			<name>kat-1826936714290441773.groovy</name>
 			<type>1</type>
 			<location>C:/Users/biswasj/AppData/Local/Temp/Katalon/Web Services/kat-1826936714290441773.groovy</location>
@@ -50,6 +51,16 @@
 			<name>kat-4304676229190735363.groovy</name>
 			<type>1</type>
 			<location>C:/Users/biswasj/AppData/Local/Temp/Katalon/Web Services/kat-4304676229190735363.groovy</location>
+=======
+			<name>kat-2330838720432701830.groovy</name>
+			<type>1</type>
+			<location>C:/Users/biswasj/AppData/Local/Temp/Katalon/Web Services/kat-2330838720432701830.groovy</location>
+		</link>
+		<link>
+			<name>kat-4632907733283115918.groovy</name>
+			<type>1</type>
+			<location>C:/Users/biswasj/AppData/Local/Temp/Katalon/Web Services/kat-4632907733283115918.groovy</location>
+>>>>>>> 8d345b7ebc916e292692e78c9e1912254c316aab
 		</link>
 		<link>
 			<name>kat-47149652637293163.groovy</name>
